@@ -37,7 +37,7 @@
 - [ ] **2** 5V/16MHz Pro Micros ([official](https://www.sparkfun.com/products/12640) or [clone](https://www.aliexpress.com/item/Pro-Micro-ATmega32U4-ATMEGA32U4-AU-5V-16MHz-Module-Usb-Controller-Board-For-Arduino-Nano-With-The/32855631781.html))
 - [ ] **48** 1N4148 diodes ([1N4148FS-ND](https://www.aliexpress.com/item/100pcs-1N4148-DO-35-Axial-Lead-Switching-Signal-Diode-Brand-New/32465250573.html), just go ahead and get 100)
 - [ ] **2** TRRS jacks ([Jack Socket](https://www.aliexpress.com/item/10Pcs-PJ-320-d-headphone-female-socket-Headphone-socket-Headphone-jack-port-3-1pin-left-three/32771954997.html))
-- [ ] **1*** [TRRS cable](https://www.aliexpress.com/item/Malloom-1-3M-Black-4-Pole-Spring-Coiled-3-5mm-Aux-Cable-w-Mic-Gold-Stereo/32835358459.html)
+- [ ] **1** [TRRS cable](https://www.aliexpress.com/item/Malloom-1-3M-Black-4-Pole-Spring-Coiled-3-5mm-Aux-Cable-w-Mic-Gold-Stereo/32835358459.html)
 - [ ] [Plate & case](https://www.thingiverse.com/thing:2335558) The case was not deep enough for me. I scaled the model to 13.5mm Z height.
 - [ ] **6** [6mm M3 screws](https://www.aliexpress.com/item/100pcs-M3-Bolt-A2-70-Button-Head-Socket-Screw-Bolt-SUS304-Stainless-Steel-M3-4-5/32829289143.html) (required for sandwich case, comes in packs of 100)
 - [ ] **48** [Switches of your choice](https://www.aliexpress.com/store/product/In-stock-KBDfans-new-arrival-Aliaz-silent-switches-Tactile-diy-keyboar/2230037_32846649968.html)
@@ -82,6 +82,8 @@ Head over to [Ponoko](https://www.ponoko.com/) and create an account if it's you
 
 ## Mount the Diodes
 
+**The pcb showed in the picture down below is not exactly the same as the one I used but the placement of the diodes is the same...**
+
 Diodes allow current to flow in one direction only. Mount the diodes with the black line facing the square pad.
 
 ![](http://i.imgur.com/uJPqbiB.jpg)
@@ -115,13 +117,20 @@ Mount the TRRS jack on the side opposite from your diodes. It should be on the b
 
 On the **underside** of the PCB, right below the TRRS jack, you'll see two sets of 3 pads labelled VCC and GND. Jumper them like this:
 
+Left side: 
+
 ```
 VCC [x]     [ ] VCC
     [x]     [x]
 GND [ ]     [x] GND
 ```
+Right side: 
 
-Do both PCBs the same.
+```
+VCC [ ]     [x] VCC
+    [x]     [x]
+GND [x]     [ ] GND
+```
 
 ![](http://i.imgur.com/eLRUJxA.jpg)
 
@@ -152,8 +161,15 @@ The long part of the pins should be protruding from the bottom. We'll trim these
 3. Line up your PCB with the switches and solder them between the header pins
 
 ### Mount the Pro Micro the Right Way
+You'll be working from the bottom of 
+the board for this step.
 
-You'll be working from the bottom of the board for this step.
+If you order the Pro Micros from the link from the part list you will get a bigger Pro Micro.
+
+You can use the cut-off legs from the diodes to mount the Pro Micro.
+
+![](https://github.com/geripgeri/lets-split-guide/blob/master/images/guide/pin_headers_from_diode_legs.png)
+![](https://github.com/geripgeri/lets-split-guide/blob/master/images/guide/pin_headers_from_diode_legs_2.png)
 
 - On the **left PCB** the Pro Micro should be **smooth side up** (facing you)
 - On the **right PCB** the Pro Micro should be **component side up** (facing you)
