@@ -4,7 +4,6 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Duckle29's socketed version](#duckle29s-socketed-version)
 - [Helpful references](#helpful-references)
 - [Parts](#parts)
 - [Cost Breakdown](#cost-breakdown)
@@ -25,10 +24,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Duckle29's socketed version
-
-- For Duckle29's socketed version of the let's split, refer to these [assembly instructions](assembly-sockets.md)
-
 ## Helpful references
 
 - [/u/wootpatoot's v2 assembly instructions](https://www.reddit.com/r/MechanicalKeyboards/comments/5funsl/guidelets_split_v2_assembly_instructions/)
@@ -39,32 +34,30 @@
 
 - [ ] v2 PCB - [You will need a set of (2) PCBs](getting-pcbs.md)
 
-- [ ] **2** 5V/16MHz Pro Micros ([official](https://www.sparkfun.com/products/12640) or [clone](https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_nkw=Arduino+Micro+Pro+ATmega32U4+5V&rt=nc&LH_BIN=1))
-- [ ] **48** 1N4148 diodes ([1N4148FS-ND](https://www.digikey.com/products/en?keywords=1N4148FS-ND), just go ahead and get 100)
-- [ ] **2** TRRS jacks ([CP-43514-ND](https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146))
-- [ ] [Plate & case](http://qmk.fm/keyboards/lets_split/lets_split_laser.svg) (sandwich design)
-- [ ] **8** [10mm M3 standoffs](https://www.mcmaster.com/#94868A166) (required for sandwich case)
-- [ ] **16** [6mm M3 screws](https://www.mcmaster.com/#92095a179/=16e985x) (required for sandwich case, comes in packs of 100)
-- [ ] **48** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
-- [ ] [TRRS cable](https://www.amazon.com/gp/product/B019TRW4HQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
-
-**/!\** The M3 screws linked above may have a slight clearance issue with the keycap. You can countersink the head or use a screw with a lower profile head. I'm testing out button head screws to see if they work better.
+- [ ] **2** 5V/16MHz Pro Micros ([official](https://www.sparkfun.com/products/12640) or [clone](https://www.aliexpress.com/item/Pro-Micro-ATmega32U4-ATMEGA32U4-AU-5V-16MHz-Module-Usb-Controller-Board-For-Arduino-Nano-With-The/32855631781.html))
+- [ ] **48** 1N4148 diodes ([1N4148FS-ND](https://www.aliexpress.com/item/100pcs-1N4148-DO-35-Axial-Lead-Switching-Signal-Diode-Brand-New/32465250573.html), just go ahead and get 100)
+- [ ] **2** TRRS jacks ([Jack Socket](https://www.aliexpress.com/item/10Pcs-PJ-320-d-headphone-female-socket-Headphone-socket-Headphone-jack-port-3-1pin-left-three/32771954997.html))
+- [ ] **1*** [TRRS cable](https://www.aliexpress.com/item/Malloom-1-3M-Black-4-Pole-Spring-Coiled-3-5mm-Aux-Cable-w-Mic-Gold-Stereo/32835358459.html)
+- [ ] [Plate & case](https://www.thingiverse.com/thing:2335558) The case was not deep enough for me. I scaled the model to 13.5mm Z height.
+- [ ] **6** [6mm M3 screws](https://www.aliexpress.com/item/100pcs-M3-Bolt-A2-70-Button-Head-Socket-Screw-Bolt-SUS304-Stainless-Steel-M3-4-5/32829289143.html) (required for sandwich case, comes in packs of 100)
+- [ ] **48** [Switches of your choice](https://www.aliexpress.com/store/product/In-stock-KBDfans-new-arrival-Aliaz-silent-switches-Tactile-diy-keyboar/2230037_32846649968.html)
+- [ ] **48** [Keycaps of your choice](https://www.aliexpress.com/store/product/pbt-dsa-keycap-dsa-1u-mixded-color-red-esc-yellow-blue-keycaps-for-gaming-mechanical-keyboard/2230037_32820475945.html)
 
 ## Cost Breakdown
 
 | Cost | Part |
 |:--|:--|
-| $10 | PCB |
-| $10-60 | Pro Micros |
-| $3 | Diodes |
+| $~10 | PCB |
+| $10 | Pro Micros |
+| $2 | Diodes |
 | $2 | TRRS Jack |
-| $36 | Plate and case |
-| $9 | Standoffs |
-| $9 | Screws |
-| $7 | TRRS cable |
-| $14-50 | Switches |
+| $? | 3D Printed Plate and case |
+| $4 | Screws |
+| $2 | TRRS cable |
+| $40 | Switches |
+| $15 | Keycaps |
 
-**Total cost: ~$100-186**. Yours might be more or less depending on the exact parts you source, what you already have, and shipping costs.
+**Total cost: ~$70-100**. Yours might be more or less depending on the exact parts you source, what you already have, and shipping costs.
 
 ## Order the case
 
